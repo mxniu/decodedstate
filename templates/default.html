@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<title>Flaskr</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+ <div class="container">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Decoded State</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+		<!-- Jumbotron -->
+		<div class="jumbotron">
+      <div class="container">
+				<div id="carousel-example-generic" class="carousel slide">
+					<!-- Indicators -->
+					<ol class="carousel-indicators btn-group">
+						<button data-target="#carousel-example-generic" data-slide-to="0" class="active btn btn-default">Step 1</button>
+						<button data-target="#carousel-example-generic" data-slide-to="1" class="btn btn-default">Step 2</button>
+						<button data-target="#carousel-example-generic" data-slide-to="2" class="btn btn-default">Step 3</button>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active instblock">
+							<h1>JOBS Act Form D</h1>
+							<p>Not sure how to go about it?</p>
+							<p><button type="button" class="btn btn-primary" data-target="#carousel-example-generic" data-slide-to="1">Learn More</button></p>
+						</div>
+						<div class="item instblock">
+							Hello
+						</div>
+						<div class="item instblock">
+							Hello
+						</div>
+					</div>
+				</div>
+      </div>
+    </div>
+
+	</div> <!-- /container -->
+	
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
